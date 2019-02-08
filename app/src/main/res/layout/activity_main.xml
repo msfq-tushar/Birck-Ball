@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mushfique.xfx.dxballfinal.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Gameover"
+        android:visibility="visible">
+
+        <TextView
+            android:text="Game Over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:id="@+id/textView7"
+            android:textSize="30sp" />
+
+        <Button
+            android:text="Main Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MainMenu"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="149dp" />
+
+        <Button
+            android:text="Restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Restart"
+            android:layout_marginBottom="81dp"
+            android:layout_alignBottom="@+id/MainMenu"
+            android:layout_alignEnd="@+id/MainMenu"
+            android:layout_alignStart="@+id/MainMenu" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/Levelselect">
+
+        <Button
+            android:text="Level 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level1" />
+
+        <Button
+            android:text="Level 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level2" />
+
+        <Button
+            android:text="Level 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level3" />
+
+        <Button
+            android:text="Level 4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level4" />
+
+        <Button
+            android:text="Level 5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level5" />
+
+        <Button
+            android:text="Level 6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level6" />
+
+        <Button
+            android:text="Level 7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level7" />
+
+        <Button
+            android:text="Level 8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level8" />
+
+        <Button
+            android:text="Level 9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level9" />
+
+        <Button
+            android:text="Level 10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Level10" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:id="@+id/Dxball">
+
+        <Button
+            android:text="Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Start"
+            android:layout_centerVertical="true"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <TextView
+            android:text="Dx Ball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:id="@+id/textView2"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Exit"
+            android:layout_below="@+id/Start"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
